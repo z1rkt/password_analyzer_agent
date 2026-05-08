@@ -39,3 +39,23 @@ In this project I will use:
 - Loops  
 - Lists and dictionaries  
 - Input and output
+
+## Current Project Status
+
+The Password Strength Analyzer Agent is now partly implemented in Python.
+
+The system can take a password from the user, check the password with different tools, calculate a score, and give suggestions for improvement.
+
+The project is still in development, but the basic workflow is working.
+
+## Project Structure
+
+```text
+password_strength_agent/
+│
+├── main.py
+├── agent.py
+├── pattern_checker.py
+├── scoring_tool.py
+├── suggestion_tool.py
+└── README.md
