@@ -69,6 +69,7 @@ password_strength_agent/
 ├── suggestion_tool.py
 └── README.md
 
+```
 
 ## Programming Concepts Used
 
