@@ -57,7 +57,6 @@ The system can take a password from the user, check the password with different 
 
 The project is still in development, but the basic workflow is working.
 
-````markdown
 ## Project Structure
 
 ```text
