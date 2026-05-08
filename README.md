@@ -68,3 +68,47 @@ password_strength_agent/
 ├── scoring_tool.py
 ├── suggestion_tool.py
 └── README.md
+
+
+After the project structure, also add this small part so it clearly covers Step 2 requirements:
+
+```markdown
+## Programming Concepts Used
+
+In the implementation I used functions, class, modules, if/else statements, loops, lists, dictionaries, input and output.
+
+Functions are used for checking the password, calculating the score, and giving suggestions.
+
+A class is used in agent.py. The PasswordAgent class controls the workflow.
+
+Modules are used because the code is separated into different files.
+
+If/else statements are used to decide if the password is weak, medium, or strong.
+
+Loops are used to print the checks and suggestions.
+
+Lists are used to store suggestions.
+
+Dictionaries are used to store password check results.
+
+## Tool Integration
+
+The agent uses three tools during execution.
+
+The Pattern Checker Tool checks the password.
+
+The Scoring Tool calculates the score.
+
+The Suggestion Tool gives improvement suggestions.
+
+The basic workflow is:
+
+User enters password → Agent checks password → Tools return results → Program shows score and suggestions.
+
+## Current Progress
+
+The basic version of the system works.
+
+It can take user input, use tools, calculate a score, and give suggestions.
+
+Testing and deployment preparation will be added later.
