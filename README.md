@@ -70,9 +70,6 @@ password_strength_agent/
 └── README.md
 
 
-After the project structure, also add this small part so it clearly covers Step 2 requirements:
-
-```markdown
 ## Programming Concepts Used
 
 In the implementation I used functions, class, modules, if/else statements, loops, lists, dictionaries, input and output.
